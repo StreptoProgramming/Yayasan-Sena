@@ -1,6 +1,6 @@
 <?php
 include('./conf.php'); // buat ngecek di database nanti, kalo token yang ada di cookie/session browser valid atau nggak, kalo gak valid (berarti gak login), langsung redirect ke halaman login.php
-
+include('./logincheck.php'); // buat cek login
 
 ?>
 <html>
