@@ -1,0 +1,153 @@
+img.header{
+	height:500px;
+}
+.header{
+	padding-right:0px;
+	background-color:#51E79E;
+	overflow: auto;
+}
+.con{
+	background-color:#E8F4F0; 
+	span
+}
+.judul{
+	color:#CD6AE4;
+	font-size:55px;
+	margin-left: 70px;
+}
+.zakat{
+	margin-left: 200px;
+}
+.kolkir{
+	padding: 50 100;
+}
+.kolkir img{
+	padding-left: 60px;
+	height: 450px;
+}
+
+.buttoned {
+    background-color: #51E79E; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;  
+    margin: 200px;
+
+}
+.kolkir button{
+	vertical-align: middle;
+	float:right;
+	margin: 200px;
+}
+.butdiv{
+	margin-right: 100px;
+}
+.kolkan img{
+	height: 450px;
+	margin: auto 0;
+	
+}
+
+button{
+	margin: 200px;
+}
+.kolkan{
+	padding: 50 100;
+	display: inline-block;
+	float: right;
+}
+.judulk{
+	color:#51E79E;
+	font-size:55px;
+	text-align: right;
+}
+
+.clear {
+    clear: both;
+}
+.kolkan button{
+	float:left;
+	margin: 200px;
+}
+.pask{display: inline-block;
+}
+
+.modal{
+  display:none;
+  position: fixed;
+  z-index:1;
+  left: 0;
+  top:0;
+  height: 100%;
+  width:100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content{
+  background-color:#f4f4f4;
+  margin: 20% auto;
+  width:70%;
+  box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17);
+  animation-name:modalopen;
+  animation-duration:1s;
+}
+
+.modal-header h2, .modal-footer h3{
+  margin:0;
+}
+
+.modal-header{
+  background:#51E79E;
+  padding:15px;
+  color:#fff;
+}
+
+.modal-body{
+  padding:10px 20px;
+}
+
+.modal-footer{
+  background:#51E79E;
+  padding:10px;
+  color:#fff;
+  text-align: center;
+}
+
+.closeBtn{
+  color:#ccc;
+  float: right;
+  font-size:30px;
+  color:#fff;
+}
+
+.closeBtn:hover,.closeBtn:focus{
+  color:#000;
+  text-decoration: none;
+  cursor:pointer;
+}
+
+
+.logout{
+    background-color: #51E79E; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;  
+    margin: 200px;
+
+
+}
+
+
+@keyframes modalopen{
+  from{ opacity: 0}
+  to {opacity: 1}
+}
